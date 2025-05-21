@@ -9,7 +9,7 @@ const server = http.createServer(app)
 
 // Configure CORS
 app.use(cors({
-  origin: ["http://localhost:8080", "http://localhost:8081", "http://localhost:8082"],
+  origin: ["http://localhost:8080", "http://localhost:8081","http://localhost:8082", "https://talk-sphere-frontend-green.vercel.app"],
   methods: ['GET', 'POST'],
   credentials: true
 }))
